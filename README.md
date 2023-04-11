@@ -5011,14 +5011,16 @@ int main(void){
 }
 
 ```
-```求解最长路径
+
+## 求解最长路径
+```
 #include<iostream>
 
 ```
 
 
-
-```c++ 自己写的SPFA有问题
+## 自己写的SPFA有问题:
+```c++ 
 #include <vector>
 #include <iostream>
 #include <cstring>
