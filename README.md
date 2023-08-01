@@ -4757,6 +4757,10 @@ const int INF = 0x3f3f3f3f;
 const int MAXV = 110;
 struct Node{
     int v, dis;
+    Node(int _v, int_dis){
+        v = _v;
+        dis = _dis;
+    }
 };
 vector<vector<Node> > Adj(MAXN, vector<Node>());
 int n, m, d[MAXV], num[MAXV];
