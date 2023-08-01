@@ -4758,7 +4758,7 @@ const int MAXV = 110;
 struct Node{
     int v, dis;
 };
-vector<Node> Adj[MAXV];
+vector<vector<Node> > Adj(MAXN, vector<Node>());
 int n, m, d[MAXV], num[MAXV];
 bool inq[MAXV];
 bool SPFA(int s){
